@@ -1,7 +1,7 @@
 [Configuration]
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0,980000
-ColorForeground=#65657b7a8383
+ColorForeground=#073642
 ColorBackground=#fdf6e3
 FontName=Inconsolata LGC for Powerline Medium 10
 MiscAlwaysShowTabs=FALSE
