@@ -1,0 +1,45 @@
+## Command to install extensions from cli:
+# cat extensions.list | grep -v '^#' | xargs -L1 code --install-extension
+
+## Theming
+ryanolsonx.solarized
+Fooxly.themeswitch
+
+## 1C:Enterpeise / BSL
+1c-syntax.language-1c-bsl
+# 1c-soft.1c-executor-plugin
+
+
+## Editor
+
+# Shows the scope symbol name of the cursor on status bar
+amos402.scope-bar
+
+# Underlined matching brackets
+rafamel.subtle-brackets
+
+# Center editor window using hotkey
+kaiwood.center-editor-window
+
+# Code formatter
+esbenp.prettier-vscode
+
+# Prettify and minify JSON
+eriklynd.json-tools
+
+
+## Python support
+ms-python.python
+batisteo.vscode-django
+
+
+## Vue support
+octref.vetur
+
+
+## PHP support
+# felixfbecker.php-debug
+linyang95.php-symbols
+
+## Misc tooling
+# ms-azuretools.vscode-docker

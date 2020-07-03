@@ -1,0 +1,119 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    { "key": "ctrl+`",          "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus" },
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.terminal.focus",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "editor.emmet.action.matchTag"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "-editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "-markdown.extension.onIndentLines",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+]",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "-markdown.extension.editing.toggleHeadingUp",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "editor.action.selectToBracket"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "-workbench.action.zoomOut"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+-",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+alt+-",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "ctrl+shift+=",
+        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+shift+-",
+        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "f9",
+        "command": "-editor.debug.action.toggleBreakpoint",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "f9",
+        "command": "workbench.action.toggleMenuBar"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "-workbench.action.terminal.scrollUp",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+down",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+e w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    }
+]

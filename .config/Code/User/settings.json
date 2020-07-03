@@ -1,0 +1,184 @@
+{
+
+    // Current color theme.
+    "workbench.colorTheme": "Solarized Dark+",
+
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Make sidebar font smaller (eg. in file explorer).
+    // Sometimes you may want to increase editor font size.
+    "window.zoomLevel":-0.5,
+
+    // Editor.
+    "editor.fontFamily": "Inconsolata LGC",
+    "editor.fontSize": 13.5,
+    "editor.rulers": [ 80, 100, 120, ],
+    "editor.renderLineHighlight": "gutter",
+
+    "editor.wordWrap": "on",
+
+    // Font for zsh + oh-my-zsh
+    "terminal.integrated.fontFamily": "'Inconsolata LGC for Powerline'",
+    "terminal.integrated.fontSize": 13,
+
+    // Tired of Ctrl+S.
+    "files.autoSave": "afterDelay",
+
+    "files.autoGuessEncoding": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+
+    // Tweak colors of my favourite Solirized themes.
+    "workbench.colorCustomizations": {
+
+        "[Solarized Dark+]": {
+            // Darker color for guides and rulers to make them visually thiner.
+            "editorIndentGuide.activeBackground": "#073642", // base02
+            "editorIndentGuide.background": "#073642",
+            "editorRuler.foreground": "#073642",
+
+            // Slightly darker gutter to see current line highlight.
+            "editorGutter.background": "#03303b",//"#073642",
+
+            // Set headers bg the same as file explorer bg
+            "sideBarSectionHeader.background": "#00212b",
+
+        },
+
+        "[Solarized Light+]": {
+            // Lighter color for guides and rulers to make them visually thiner.
+            "editorIndentGuide.activeBackground": "#eee8d5", // base2
+            "editorIndentGuide.background": "#eee8d5",
+            "editorRuler.foreground": "#eee8d5",
+
+            // Darker gutter
+            "editorGutter.background": "#e6decb",
+
+            // Set headers bg the same as file explorer bg
+            "sideBarSectionHeader.background": "#eee8d5",
+
+            // Terminal more contrast colors for light theme.
+            "terminal.foreground":"#153744",
+            "terminal.ansiBlack":"#1D2021",
+            "terminal.ansiBlue":"#b5cfd4",
+            "terminal.ansiBrightBlack":"#aa988b",
+            "terminal.ansiBrightBlue":"#657B83",
+            "terminal.ansiBrightCyan":"#8BA59B",
+            "terminal.ansiBrightGreen":"#93A1A1",
+            "terminal.ansiBrightMagenta":"#6C71C4",
+            "terminal.ansiBrightRed":"#FB543F",
+            "terminal.ansiBrightWhite":"#073642",
+            "terminal.ansiBrightYellow":"#946e16",
+            "terminal.ansiCyan":"#407762",
+            "terminal.ansiGreen":"#8c9e18",
+            "terminal.ansiMagenta":"#D33682",
+            "terminal.ansiRed":"#DC322F",
+            "terminal.ansiWhite":"#002B36",
+            "terminal.ansiYellow":"#b88b24"
+
+        },
+
+        // Darker font color for file explorer.
+        "sideBar.foreground": "#657b83",
+    },
+
+    // I need from git extension only git status in file explorer.
+    "git.enabled": true,
+    // Show git status as badges only.
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": false,
+
+    // Hide indent guides in file explorer.
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 16,
+
+    // Hide all the whistles.
+    "editor.minimap.enabled": false,
+    "workbench.editor.showTabs": false,
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.icons": false,
+
+    // Dont highlight files/folders with problems in file explorer.
+    "problems.decorations.enabled": false,
+    "problems.autoReveal": false,
+
+    // Hide main menu (press Alt to show).
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.visible": false,
+
+    // Use Subtle Match Brackets extension to underline matching brackets,
+    // so disable standart behavior (boxes for matching pairs).
+    "editor.matchBrackets": false,
+
+    // Use Toggle Light/Dark Theme to switch light/dark theme
+    // manually via Ctrl+Shift+Alt+T short(?)cut or via statusbar icon.
+    "window.autoDetectColorScheme": false,
+    "workbench.preferredLightColorTheme": "Solarized Light+",
+    "workbench.preferredDarkColorTheme": "Solarized Dark+",
+
+    // Language-specific defaults.
+    "python.venvPath": ".venv",
+    "python.venvFolders": [
+        ".venv"
+    ],
+
+    "[markdown]": {
+        "editor.quickSuggestions": true,
+        "editor.acceptSuggestionOnEnter": "off",
+    },
+
+    "[plaintext]": {
+        "editor.quickSuggestions": true,
+        "editor.acceptSuggestionOnEnter": "off",
+    },
+
+
+    // Different extensions settings.
+    "php.suggest.basic": false,
+    "intelephense.file.maxSize": 20000000,
+    "phpcs.enable": false,
+    "intelephense.files.maxSize": 100000000,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+
+    // VS Code by default is copying code with hightlighting
+    // and it is not what you expect. Turn it off.
+    "editor.copyWithSyntaxHighlighting": false,
+    "explorer.confirmDelete": false,
+    "center-editor-window.threeStateToggle": true,
+    "center-editor-window.offset": 20,
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "1C.executor.path": "/home/kuntashov/Devel/executor/executor/bin/executor_j11.sh",
+    "intelephense.environment.shortOpenTag": true,
+    "python.languageServer": "Microsoft",
+    "vscode-neovim.neovimPath": "/home/kuntashov/bin/nvim.appimageE",
+
+}
+
+// Solorized colors:
+// https://ethanschoonover.com/solarized/
+
+// $base03:    #002b36;
+// $base02:    #073642;
+// $base01:    #586e75;
+// $base00:    #657b83;
+// $base0:     #839496;
+// $base1:     #93a1a1;
+// $base2:     #eee8d5;
+// $base3:     #fdf6e3;
+// $yellow:    #b58900;
+// $orange:    #cb4b16;
+// $red:       #dc322f;
+// $magenta:   #d33682;
+// $violet:    #6c71c4;
+// $blue:      #268bd2;
+// $cyan:      #2aa198;
+// $green:     #859900;
