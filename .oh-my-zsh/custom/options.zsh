@@ -1,1 +1,2 @@
 setopt AUTO_CD
+
