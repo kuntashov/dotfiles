@@ -1,0 +1,8 @@
+RMS*.tgz
+.vagrant
+mysql_error.dat
+data
+docker-compose.override.yml
+_output
+.tcconfig
+
