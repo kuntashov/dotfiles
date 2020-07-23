@@ -15,6 +15,8 @@ alias l='exa --long --git'
 alias et='exa --header --long --git --tree'
 cd() { builtin cd $@ && e  }
 
+alias fd=fdfind
+alias f=fdfind
 
 # django manage.py aliases
 alias djsh='python manage.py shell'
