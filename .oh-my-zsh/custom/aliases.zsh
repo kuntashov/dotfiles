@@ -10,8 +10,10 @@ alias gtags='git tag -n1'
 
 
 # navigation
-alias ls='ls -lh'
-cd() { builtin cd $@ && ls -lh  }
+alias e='exa --header --long --git'
+alias l='exa --long --git'
+alias et='exa --header --long --git --tree'
+cd() { builtin cd $@ && e  }
 
 
 # django manage.py aliases
