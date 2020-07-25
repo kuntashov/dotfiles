@@ -41,4 +41,4 @@ alias diff="diff-so-fancy"
 
 # z cmd alias
 export _Z_CMD="j"
-source ~/.bin/z/z.sh
+source ~/Apps/z/z.sh
