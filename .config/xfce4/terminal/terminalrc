@@ -1,8 +1,8 @@
 [Configuration]
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0,980000
-ColorForeground=#073642
-ColorBackground=#fdf6e3
+ColorForeground=#839496
+ColorBackground=#002b36
 FontName=Inconsolata LGC for Powerline Medium 10
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
@@ -31,9 +31,13 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-ColorCursor=#073642
-ColorPalette=#eee8d5;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#073642;#fdf6e3;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#002B36
-ColorBold=#073642
+ColorCursor=#93a1a1
+ColorPalette=#073642;#dc322f;#859900;#b58900;#268bd2;#d33682;#2aa198;#eee8d5;#002b36;#cb4b16;#586e75;#657b83;#839496;#6c71c4;#93a1a1;#fdf6e3
+ColorBold=#93a1a1
 ColorBoldUseDefault=FALSE
 TabActivityColor=#dc322f
+DropdownHeight=94
+DropdownWidth=72
+DropdownAnimationTime=14
+DropdownStatusIcon=FALSE
 
