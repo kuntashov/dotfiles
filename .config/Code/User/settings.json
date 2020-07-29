@@ -1,7 +1,7 @@
 {
 
     // Current color theme.
-    "workbench.colorTheme": "Solarized Dark+",
+    "workbench.colorTheme": "Solarized Light+",
 
     "workbench.statusBar.visible": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -160,6 +160,10 @@
     "intelephense.environment.shortOpenTag": true,
     "python.languageServer": "Microsoft",
     "vscode-neovim.neovimPath": "/home/kuntashov/bin/nvim.appimageE",
+
+    "files.associations": {
+        "*.txt": "plaintext"
+    }
 
 }
 
