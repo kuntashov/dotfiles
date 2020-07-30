@@ -13,6 +13,7 @@ alias gtags='git tag -n1'
 alias e='exa --header --long --git'
 alias l='exa --long --git'
 alias et='exa --header --long --git --tree'
+alias ls='exa --long --git'
 cd() { builtin cd $@ && e  }
 
 alias fd=fdfind
