@@ -40,6 +40,8 @@ dreload() { docker-compose stop && docker-compose start; }
 alias zshconfig="vim ~/.zshrc"
 alias diff="diff-so-fancy"
 
+alias py="python3 $@"
+
 # z cmd alias
 export _Z_CMD="j"
 source ~/Apps/z/z.sh
