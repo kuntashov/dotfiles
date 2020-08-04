@@ -123,5 +123,9 @@
     {
         "key": "ctrl+k m",
         "command": "-workbench.action.editor.changeLanguageMode"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "workbench.explorer.fileView.focus"
     }
 ]
