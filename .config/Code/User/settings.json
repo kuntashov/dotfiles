@@ -1,7 +1,7 @@
 {
 
     // Current color theme.
-    "workbench.colorTheme": "Solarized Light+",
+    "workbench.colorTheme": "Solarized Dark+",
 
     "workbench.statusBar.visible": true,
     "workbench.startupEditor": "newUntitledFile",
@@ -127,7 +127,16 @@
     "[markdown]": {
         "editor.quickSuggestions": true,
         "editor.acceptSuggestionOnEnter": "off",
+        "editor.tabSize": 2,
     },
+
+    // Markdown preview sync is broken when md content has images so disable it.
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+
+    "markdown.styles": [
+        "https://cdn.jsdelivr.net/gh/dhdhagar/vscode-md-preview-light/style.min.css"
+    ],
 
     "[plaintext]": {
         "editor.quickSuggestions": true,
@@ -159,12 +168,27 @@
     "1C.executor.path": "/home/kuntashov/Devel/executor/executor/bin/executor_j11.sh",
     "intelephense.environment.shortOpenTag": true,
     "python.languageServer": "Microsoft",
-    "vscode-neovim.neovimPath": "/home/kuntashov/bin/nvim.appimageE",
 
     "files.associations": {
         "*.txt": "plaintext"
-    }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-l>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-w>": false,
+        "<C-n>": false,
+        "<C-a>": false,
+        "<C-x>": false,
+    },
 }
 
 // Solorized colors:

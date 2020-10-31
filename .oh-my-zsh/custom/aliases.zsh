@@ -10,10 +10,10 @@ alias gtags='git tag -n1'
 
 
 # navigation
-alias e='exa --header --long --git'
-alias l='exa --long --git'
-alias et='exa --header --long --git --tree'
-alias ls='exa --long --git'
+alias e='exa --header --long'
+alias l='exa --long'
+alias et='exa --header --long --tree'
+alias ls='exa --long'
 cd() { builtin cd $@ && e  }
 
 alias fd=fdfind
@@ -41,6 +41,8 @@ alias zshconfig="vim ~/.zshrc"
 alias diff="diff-so-fancy"
 
 alias py="python3 $@"
+
+alias bat="batcat"
 
 # z cmd alias
 export _Z_CMD="j"
