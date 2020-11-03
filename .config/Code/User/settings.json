@@ -38,6 +38,7 @@
             "editorIndentGuide.activeBackground": "#073642", // base02
             "editorIndentGuide.background": "#073642",
             "editorRuler.foreground": "#073642",
+            "editor.selectionHighlightBackground": "#002B36",
 
             // Slightly darker gutter to see current line highlight.
             "editorGutter.background": "#03303b",//"#073642",
@@ -52,6 +53,7 @@
             "editorIndentGuide.activeBackground": "#eee8d5", // base2
             "editorIndentGuide.background": "#eee8d5",
             "editorRuler.foreground": "#eee8d5",
+            "editor.selectionHighlightBackground": "#fdf6e3",
 
             // Darker gutter
             "editorGutter.background": "#e6decb",
@@ -188,7 +190,18 @@
         "<C-n>": false,
         "<C-a>": false,
         "<C-x>": false,
+        "<C-o>": false,
     },
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "underline",
+    "vim.cursorStylePerMode.visual": "block-outline",
+
 }
 
 // Solorized colors:
