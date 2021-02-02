@@ -1,8 +1,22 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    { "key": "ctrl+`",          "command": "workbench.action.focusActiveEditorGroup", "when": "terminalFocus" },
     {
-        "key": "ctrl+`",
+        "key": "Alt+6",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "Alt+5",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+[Backquote]",
         "command": "workbench.action.terminal.focus",
         "when": "!terminalFocus"
     },
