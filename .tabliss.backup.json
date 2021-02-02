@@ -1,0 +1,187 @@
+{
+    "backgrounds": [
+        {
+            "active": true,
+            "display": {
+                "blur": 0,
+                "luminosity": -0.1
+            },
+            "id": "b8a4bc46-b163-4b6d-a5f1-b6058ef9e813",
+            "key": "background/unsplash"
+        }
+    ],
+    "widgets": [
+        {
+            "active": true,
+            "display": {
+                "fontSize": 54,
+                "position": "bottomRight"
+            },
+            "id": "40d33fb9-ead7-4f64-926d-40172e043ed7",
+            "key": "widget/weather"
+        },
+        {
+            "active": true,
+            "display": {
+                "fontSize": 16,
+                "position": "topRight"
+            },
+            "id": "ce9defa8-e99c-4ed1-9dc2-dc3ee90c38c7",
+            "key": "widget/time"
+        },
+        {
+            "active": true,
+            "display": {
+                "fontSize": 10,
+                "position": "topRight"
+            },
+            "id": "a187b770-5936-48f1-8f2a-62bd8c8d35dc",
+            "key": "widget/time"
+        },
+        {
+            "active": true,
+            "display": {
+                "fontSize": 10,
+                "position": "topRight"
+            },
+            "id": "91ff6bb7-731e-41dd-84d3-2e7e66e36b38",
+            "key": "widget/time"
+        },
+        {
+            "active": true,
+            "display": {
+                "fontSize": 10,
+                "position": "topRight"
+            },
+            "id": "55b57a8d-d80c-41c3-af37-b379060b1517",
+            "key": "widget/time"
+        },
+        {
+            "active": true,
+            "display": {
+                "fontSize": 20,
+                "position": "topCentre"
+            },
+            "id": "027748aa-991d-4e4a-98d1-e10582dca692",
+            "key": "widget/links"
+        }
+    ],
+    "data": {
+        "027748aa-991d-4e4a-98d1-e10582dca692": {
+            "columns": 3,
+            "linkOpenStyle": false,
+            "links": [
+                {
+                    "icon": "mail",
+                    "name": "GMail",
+                    "url": "https://gmail.com"
+                },
+                {
+                    "icon": "arrow-up",
+                    "name": "Infostart.ru",
+                    "url": "https://infostart.ru"
+                },
+                {
+                    "icon": "github",
+                    "name": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "icon": "x",
+                    "name": ".club",
+                    "url": "https://vas3k.club"
+                },
+                {
+                    "icon": "cloud",
+                    "name": "cloud.mail.ru",
+                    "url": "https://cloud.mail.ru"
+                },
+                {
+                    "icon": "gitlab",
+                    "name": "Git-1C",
+                    "url": "https://git-1c.infostart.ru"
+                },
+                {
+                    "icon": "youtube",
+                    "name": "YouTube",
+                    "url": "https://youtube.com"
+                },
+                {
+                    "icon": "video",
+                    "name": "Daily Meeting",
+                    "url": "https://us02web.zoom.us/j/81212309367?pwd=bExUK2p0RTB5eXlNemw3aitZREJLdz09"
+                },
+                {
+                    "icon": "gitlab",
+                    "name": "Git-BX",
+                    "url": "https://git.infostart.ru"
+                }
+            ],
+            "visible": true
+        },
+        "2b4534bc-8253-4361-8f7f-3d240a1a4163": {
+            "hour12": false,
+            "mode": "digital",
+            "showDate": false,
+            "showDayPeriod": true,
+            "showMinutes": true,
+            "showSeconds": false,
+            "timeZone": "Asia/Magadan"
+        },
+        "40d33fb9-ead7-4f64-926d-40172e043ed7": {
+            "latitude": 51.530018,
+            "longitude": 46.034683,
+            "showDetails": false,
+            "units": "auto"
+        },
+        "55b57a8d-d80c-41c3-af37-b379060b1517": {
+            "hour12": false,
+            "mode": "digital",
+            "name": "Хабаровск",
+            "showDate": false,
+            "showDayPeriod": true,
+            "showMinutes": true,
+            "showSeconds": false,
+            "timeZone": "Asia/Vladivostok"
+        },
+        "91ff6bb7-731e-41dd-84d3-2e7e66e36b38": {
+            "hour12": false,
+            "mode": "digital",
+            "name": "Мск, Спб",
+            "showDate": false,
+            "showDayPeriod": true,
+            "showMinutes": true,
+            "showSeconds": false,
+            "timeZone": "Europe/Moscow"
+        },
+        "a187b770-5936-48f1-8f2a-62bd8c8d35dc": {
+            "hour12": false,
+            "mode": "digital",
+            "name": "Калининград",
+            "showDate": false,
+            "showDayPeriod": true,
+            "showMinutes": true,
+            "showSeconds": false,
+            "timeZone": "Europe/Kaliningrad"
+        },
+        "b8a4bc46-b163-4b6d-a5f1-b6058ef9e813": {
+            "by": "search",
+            "collections": "",
+            "featured": false,
+            "search": "nature",
+            "timeout": 900
+        },
+        "ce9defa8-e99c-4ed1-9dc2-dc3ee90c38c7": {
+            "hour12": false,
+            "mode": "digital",
+            "showDate": false,
+            "showDayPeriod": true,
+            "showMinutes": true,
+            "showSeconds": false
+        }
+    },
+    "_persist": {
+        "version": -1,
+        "rehydrated": true
+    }
+}
